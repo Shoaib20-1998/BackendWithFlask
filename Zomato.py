@@ -3,10 +3,19 @@ from flask import Flask, jsonify, request
 app = Flask(__name__)
 
 # Dummy data
-dishes = [
-    {"id": 1, "name": "Pizza", "price": 10.99, "availability": True},
-    {"id": 2, "name": "Burger", "price": 5.99, "availability": True},
-    {"id": 3, "name": "Pasta", "price": 8.99, "availability": False}
+dishes =  [
+    {"id": 1, "name": "Pizza", "price": 299.99, "availability": True},
+    {"id": 2, "name": "Burger", "price": 249.99, "availability": True},
+    {"id": 3, "name": "Pasta", "price": 219.99, "availability": False},
+    {"id": 4, "name": "Salad", "price": 249.99, "availability": True},
+    {"id": 5, "name": "Sushi", "price": 329.99, "availability": True},
+    {"id": 6, "name": "Steak", "price": 349.99, "availability": False},
+    {"id": 7, "name": "Sandwich", "price": 229.99, "availability": True},
+    {"id": 8, "name": "Soup", "price": 209.99, "availability": True},
+    {"id": 9, "name": "Chicken Wings", "price": 289.99, "availability": True},
+    {"id": 10, "name": "Fish and Chips", "price": 249.99, "availability": False},
+    {"id": 11, "name": "Ice Cream", "price": 209.99, "availability": True},
+    {"id": 12, "name": "Pancakes", "price": 239.99, "availability": True}
 ]
 
 orders = []
